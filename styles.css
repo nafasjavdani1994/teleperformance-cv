@@ -132,3 +132,17 @@ h3 {
 .remove-letter-space {
   letter-spacing: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+  padding: 30px 50px;
+  position: absolute;
+  top: 40px;
+  left: 170px;
+  width: max-content;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}
